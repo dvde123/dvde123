@@ -101,4 +101,4 @@ async def unrole(ctx, role: discord.Role, member: discord.Member=None):
 
 
 
-client.run('Njc0NjQ0NjAwMjA3NDQxOTQx.XjuQyQ._sdB6i8sJY5PcEcOrk0MhXSintA')
+client.run("Njc0NjQ0NjAwMjA3NDQxOTQx.Xjv92A.rWUEDKuBbdl_f00rzMjNHehbuZY")
