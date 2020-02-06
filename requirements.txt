@@ -1,4 +1,4 @@
-disord.py
+git+https://github.com/Rapptz/discord.py
 aiohttp
 websockets
 chardet
