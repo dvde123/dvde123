@@ -1,0 +1,4 @@
+disord.py
+aiohttp
+websockets
+chardet
