@@ -1,5 +1,6 @@
 import discord
 from discord.ext import commands
+import os
 
 client = commands.Bot( command_prefix = '.' )
 client.remove_command('help')
@@ -98,7 +99,7 @@ async def unrole(ctx, role: discord.Role, member: discord.Member=None):
     await ctx.send(f'unrole {role} : {member.mention}')
 
 
+token=os.environ.get('BOT_TOKEN')
 
 
-
-client.run("Njc0NjQ0NjAwMjA3NDQxOTQx.Xjv92A.rWUEDKuBbdl_f00rzMjNHehbuZY")
+client.run(str(token))
